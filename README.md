@@ -1,40 +1,47 @@
 # Planifi
 
-Planifi est une application web moderne conçue pour faciliter la gestion des rendez-vous et des disponibilités pour les professionnels et leurs clients. Elle offre une interface utilisateur intuitive permettant une navigation aisée à travers les différentes fonctionnalités proposées.
+Planifi is a modern web application designed to facilitate appointment scheduling and availability management for professionals and their clients. It offers an intuitive user interface for easy navigation through the various features provided.
 
-## Fonctionnalités
+## Features
 
--   **Gestion des utilisateurs** : Inscription et connexion sécurisée pour les clients et les professionnels.
--   **Prise de rendez-vous** : Les clients peuvent consulter les disponibilités des professionnels et prendre rendez-vous en quelques clics.
--   **Gestion des services** : Les professionnels peuvent créer, modifier et supprimer les services proposés.
--   **Calendrier des rendez-vous** : Affichage dynamique des rendez-vous sur un calendrier, facilitant ainsi la gestion du temps pour les professionnels.
--   **Notifications** : Envoi automatique de notifications pour rappeler les prochains rendez-vous.
+- **User Management**: Secure registration and login for clients and professionals.
+- **Appointment Scheduling**: Clients can view professionals' availability and schedule appointments in a few clicks.
+- **Service Management**: Professionals can create, modify, and delete the services they offer.
+- **Appointment Calendar**: Dynamic display of appointments on a calendar, making time management easier for professionals.
+- **Notifications**: Automatic notifications to remind clients of their upcoming appointments.
 
-## Technologies Utilisées
+## Technologies Used
 
--   **Backend** : Node.js, Express
--   **Frontend** : EJS pour le rendu côté serveur
--   **Base de données** : PostgreSQL
--   **Authentification** : Gestion des sessions avec express-session, sécurisation des mots de passe avec bcrypt
--   **Communication en temps réel** : Socket.io
--   **Déploiement** : Docker compose pour faciliter le déploiement et la mise à l'échelle
+- **Backend**: Node.js, Express
+- **Frontend**: Angular
+- **Database**: PostgreSQL
+- **Authentication**: Session management with express-session, password security with bcrypt
+- **Real-Time Communication**: Socket.io
+- **Deployment**: Docker compose for easy deployment and scaling
 
-## Fonctionnalités à venir
+## Tools and Techniques
 
-Le projet Planifi est en constante évolution. Voici une liste de fonctionnalités que nous envisageons d'ajouter pour enrichir encore plus notre application :
+- **Node.js and Express**: Used for backend development.
+- **Angular**: Used for frontend development.
+- **PostgreSQL**: Used for database management.
+- **Socket.io**: Used for real-time communication.
 
--   **Gestion de photos** : Permettre aux professionnels d'ajouter des photos à leur profil pour mieux présenter leurs services et aux clients de télécharger des images lors de la prise de rendez-vous si nécessaire.
+## Upcoming Features
 
--   **Carte de localisation** : Intégrer une carte sur le profil des professionnels pour afficher leur localisation exacte, facilitant ainsi la tâche aux clients de les trouver.
+The Planifi project is constantly evolving. Here is a list of features we plan to add to further enhance our application:
 
--   **Barre de recherche** : Ajouter une barre de recherche globale pour permettre une navigation plus rapide et efficace à travers les différents services, professionnels et articles disponibles sur le site.
+- **Photo Management**: Allow professionals to add photos to their profiles to better showcase their services and clients to upload images when scheduling appointments if necessary.
 
--   **Système de notation et d'avis** : Introduire un système permettant aux clients de laisser des avis et des notes sur les services reçus, offrant ainsi aux nouveaux utilisateurs des références fiables.
+- **Location Map**: Integrate a map on professionals' profiles to display their exact location, making it easier for clients to find them.
 
--   **Rappels automatiques par SMS/Email** : Envoyer des rappels automatiques aux clients concernant leurs prochains rendez-vous via SMS ou email, pour réduire le nombre d'absences.
+- **Search Bar**: Add a global search bar to enable quicker and more efficient navigation through the various services, professionals, and articles available on the site.
 
--   **Intégration de paiement en ligne** : Proposer une option de paiement en ligne pour les services, simplifiant le processus de transaction et offrant plus de commodités aux utilisateurs.
+- **Rating and Review System**: Introduce a system allowing clients to leave reviews and ratings for the services they received, providing new users with reliable references.
 
--   **Personnalisation du calendrier** : Offrir plus d'options de personnalisation pour le calendrier des professionnels, permettant une meilleure gestion de leurs disponibilités et horaires.
+- **Automatic SMS/Email Reminders**: Send automatic reminders to clients about their upcoming appointments via SMS or email to reduce the number of no-shows.
 
--   **Support multilingue** : Rendre l'application accessible à une audience plus large en proposant plusieurs langues.
+- **Online Payment Integration**: Offer an online payment option for services, simplifying the transaction process and providing more convenience for users.
+
+- **Calendar Customization**: Provide more customization options for professionals' calendars, allowing better management of their availability and schedules.
+
+- **Multilingual Support**: Make the application accessible to a wider audience by offering multiple languages.
